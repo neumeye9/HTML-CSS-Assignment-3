@@ -1,0 +1,177 @@
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+ /*outline: 1px dashed green;*/
+}
+#wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 1000px;
+    height: 1080px;
+    background:linear-gradient(#245076,#316ea1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    width:400px;
+}
+header{
+    display: flex;
+}
+header span{
+    position: relative;
+    position: relative;
+    top: 15px;
+    right: -370px;  
+    color: white;
+}
+header span a{
+    color: yellow;
+}
+form{
+    position: relative;
+    right: -80px;
+    top: 50px;
+    background-color: #444444;
+    padding: 10px;
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+}
+form input{
+    text-align: center;
+}
+button{
+    border: 2px solid white;
+    background-color: #245076;
+    color: white;
+    height: 30px;
+    width:40px;
+    border-radius: 10px;
+    position: relative;
+    left: 30px;
+}
+input{
+    height: 30px;
+    width: 200px;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+.navigation ul{
+    width: 830px;
+    display: flex;
+    list-style: none;
+    position: relative;
+    right: -150px;
+    background:radial-gradient(#8fb5d6 5%,#3777ad 95%);
+    border-radius: 10px;
+}
+.navigation li{
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navigation li a{
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+.sidebar ul{
+    position: relative;
+    left: 70px; 
+    top: 50px;  
+    width:  200px;
+    text-align: center;
+    list-style-type: none;
+}
+.sidebar ul li a{
+    color: white;
+}
+.sidebar ul li:before{
+    content: ">>";
+    color: yellow;
+    margin-right: 5px;
+}
+.sidebar ul li{
+    list-style: none;
+    padding: 10px;
+}
+.about{
+    margin: auto;
+    width: 700px;
+    height: 320px;
+    text-align: center;
+    position: relative;
+    right: -140px;
+    bottom: 240px;
+}
+.about p.summary{
+    padding: 5px;
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+  
+}
+p.highlight{
+    color: yellow;
+    text-align: center;
+    padding: 5px;
+    font-style: italic;
+    line-height: 20px;
+}
+.about span{
+    color:white;
+    padding: 10px;
+}
+.content{
+    display: flex;
+    background-color: white;
+    position: relative;
+    bottom: 220px;
+    height: 350px;
+}
+.box{
+    border-top: 10px solid #3777ad;
+    margin-top: 10px;
+    width: 420px;
+    margin: 30px;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    left: 15px;
+}
+.box h3{
+    margin: 10px;
+}
+.box p{
+    margin: 10px;
+}
+.box ul{
+    line-height: 25px;
+    width: 280px;
+}
+.box ul li{
+    list-style-type: square;
+    margin-left: 50px; 
+    width: 300px;
+}
+.box ul li a{
+    color: #3777ad;
+}
+.footer{
+  text-align: center;
+  position: relative;
+  bottom: 180px;
+}
+.footer span{
+    padding: 20px;
+}
+.footer span.rights{
+    display: block;
+    color: white 
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+}
